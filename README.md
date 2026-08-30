@@ -1,3 +1,6 @@
+> **This repository has been archived and consolidated into [`learning-notes`](https://github.com/denis-samatov/learning-notes/tree/main/algorithms).**
+> This copy is kept for history; see the link above for the current version.
+
 # Algorithms and Data Structures
 
 Welcome to the Algorithms and Data Structures repository! This repository contains a collection of Jupyter notebooks covering various algorithms and data structures. It is designed to help you understand and implement fundamental algorithms and data structures in Python.
