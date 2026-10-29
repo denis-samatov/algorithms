@@ -1,4 +1,4 @@
-> **This repository has been archived and consolidated into [`learning-notes`](https://github.com/denis-samatov/learning-notes/tree/main/algorithms).**
+> **The consolidated teaching material is maintained in [`learning-notes`](https://github.com/denis-samatov/learning-notes/tree/main/algorithms).**
 > This copy is kept for history; see the link above for the current version.
 
 # Algorithms and Data Structures
@@ -58,3 +58,7 @@ This notebook introduces prefix sums and the two pointers technique, both of whi
 This notebook explores algorithms for sorting events based on various criteria. It covers different sorting techniques and their applications in event management scenarios.
 
 Happy coding!
+
+## Regression checks
+
+Run `python -m pytest tests/ -q` (stdlib-only notebook logic; pytest is a test dependency). Tests execute actual notebook definitions and compare search/pair counts and coherent-team optimization with independent small-input oracles, including empty arrays, duplicates and negative thresholds. Binary search expects a sorted sequence. Pair counting enforces i<j for every integer k. The coherent-team example selects a subset of nonnegative strengths; its two weakest must cover its strongest, and the input is sorted internally without mutation. Historical saved outputs may predate corrections. Apply current teaching updates to canonical learning-notes as well.
